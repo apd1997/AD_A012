@@ -9,3 +9,4 @@
   window.yaakovGreeter = yaakovGreeter;
 
 })(window);
+yaakovGreeter.sayHello();
