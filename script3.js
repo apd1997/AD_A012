@@ -9,3 +9,4 @@
   window.johnGreeter = johnGreeter;
 
 })(window);
+johnGreeter.sayHi();
