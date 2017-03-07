@@ -17,5 +17,14 @@ function sayHello () {
     document
         .querySelector("h1")
         .textContent = title;
+   else{
+      var title1 = 
+      document
+        .querySelector("#title1")
+        .textContent;
+    title += "";
+    document
+        .querySelector("h1")
+        .textContent = title;
   }
 }
