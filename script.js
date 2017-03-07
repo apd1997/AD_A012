@@ -22,9 +22,9 @@ function sayHello () {
       document
         .querySelector("#title1")
         .textContent;
-    title += "";
+    title1 += "";
     document
         .querySelector("h1")
-        .textContent = title;
+        .textContent = title1;
   }
 }
