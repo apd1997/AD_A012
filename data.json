@@ -1,8 +1,10 @@
 {
- "name":"Akash Dhanesha",
+ "name":"Akash Dhanesha":[
  "Engieering Mathematics-4": 75,
- "Web Programming": 40,
- "name":"Gandharv Damani",
+ "Web Programming": 40
+ ]
+ "name":"Gandharv Damani":[
  "Engieering Mathematics-4": 85,
  "Web Programming": 45
+ ]
 }
