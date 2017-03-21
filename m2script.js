@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
     var name =
-   document.getElementById("name").value; 
+   document.getElementById("Name").value; 
    
    document
     .getElementById("content")
