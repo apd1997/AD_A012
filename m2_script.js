@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
     var name =
-   document.getElementById("name").value; 
+   document.getElementById("Name").value; 
    
    document
     .getElementById("content")
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("data.json", 
             function (res) {
-              if (res.Name.json=="Akash Dhanesha") {
+              if (res.Name=="Akash Dhanesha") {
                 message += res.m1;
                 message+=res.m2;
               }
