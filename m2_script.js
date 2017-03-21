@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("data.json", 
             function (res) {
-              if (res.Name==Akash Dhanesha) {
+              if (res.Name.json=="Akash Dhanesha") {
                 message += res.m1;
                 message+=res.m2;
               }
