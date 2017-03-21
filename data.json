@@ -1,12 +1,11 @@
 {
-myobj={"Name:Akash Dhanesha",
-  "Engieering Mathematics-4: 75",
-  "Web Programming: 40"}
-}
-{
-myobj1={"Name:Gandharv Damani",
- "Engieering Mathematics-4: 85",
- "Web Programming: 45"}
+"Name:Akash Dhanesha",
+  "m1":"Engieering Mathematics-4: 75",
+  "m2":"Web Programming: 40",
+  
+"Name:Gandharv Damani",
+"m3": "Engieering Mathematics-4: 85",
+ "m4":"Web Programming: 45"
 }
 
 
