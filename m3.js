@@ -8,12 +8,13 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("m3.json", 
             function (res) {
+          var message
               for (i in res.number)
               if (res.numbers[i].num1=num1) {
-                message += res.numbers[i].name;
+                message = res.numbers[i].name;
               }
               else {
-                message += " data does not exist";
+                message = " data does not exist";
               }
 
               document.querySelector("#content")
