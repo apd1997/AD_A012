@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("m3.json", 
             function (res) {
               for (i in res.number)
-              if (res.number[i].num1=num1) {
-                message += res.number[i].name;
+              if (res.numbers[i].num1=num1) {
+                message += res.numbers[i].name;
               }
               else {
                 message += " data does not exist";
